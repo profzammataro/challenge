@@ -435,6 +435,7 @@
   .arena-info { flex: 1; }
   .arena-name { font-weight: 900; font-size: 1rem; margin-bottom: 2px; }
   .arena-status { font-size: 0.8rem; color: var(--muted); font-weight: 600; }
+  .arena-players { font-size: 0.72rem; color: var(--p2); font-weight: 600; margin-top: 3px; opacity: 0.85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px; }
   .arena-badge {
     padding: 4px 10px;
     border-radius: 100px;
@@ -769,34 +770,56 @@
     list.innerHTML = ARENAS.map(arena => {
       const aData = data[arena.id] || {};
       const matches = aData.matches || {};
-      // Conta match in stato 'waiting' o 'playing'
-      const waitingMatches = Object.values(matches).filter(m => m.status === 'waiting');
-      const playingMatches = Object.values(matches).filter(m => m.status === 'playing');
+      const allMatches = Object.values(matches);
+      const waitingMatches = allMatches.filter(m => m.status === 'waiting');
+      const activeMatches = allMatches.filter(m => m.status === 'playing' || m.status === 'started');
       const hasWaiting = waitingMatches.length > 0;
-      const isFull = playingMatches.length >= 3; // max 3 partite simultanee
+      const MAX_CONCURRENT = 6; // max 6 partite simultanee per arena
+      const isFull = activeMatches.length >= MAX_CONCURRENT && !hasWaiting;
+
+      // Raccoglie tutti i nomi dei giocatori presenti
+      const playerNames = [];
+      allMatches.forEach(m => {
+        if (m.p1Name) playerNames.push(m.p1Name);
+        if (m.p2Name) playerNames.push(m.p2Name);
+      });
+      const totalPlayers = playerNames.length;
+
+      // Testo nomi da mostrare (max 4 nomi poi "e altri...")
+      let namesText = '';
+      if (playerNames.length > 0) {
+        const shown = playerNames.slice(0, 4);
+        namesText = shown.join(', ') + (playerNames.length > 4 ? ` e altri ${playerNames.length - 4}…` : '');
+      }
 
       let badgeClass, badgeText, statusText;
       if (isFull) {
         badgeClass = 'badge-full'; badgeText = '🔴 Piena';
-        statusText = `${playingMatches.length} sfide in corso`;
+        statusText = `${totalPlayers} giocatori in sfida`;
       } else if (hasWaiting) {
-        badgeClass = 'badge-waiting'; badgeText = '🟡 Ti aspetta!';
-        statusText = `Qualcuno aspetta un avversario`;
-      } else if (playingMatches.length > 0) {
+        const waitName = waitingMatches[0].p1Name || 'Qualcuno';
+        badgeClass = 'badge-waiting'; badgeText = '🟡 Entra!';
+        statusText = `${waitName} cerca avversario`;
+      } else if (totalPlayers > 0) {
         badgeClass = 'badge-free'; badgeText = '🟢 Libera';
-        statusText = `${playingMatches.length} sfide in corso`;
+        statusText = `${totalPlayers} giocator${totalPlayers === 1 ? 'e' : 'i'} dentro`;
       } else {
         badgeClass = 'badge-empty'; badgeText = '⚪ Vuota';
         statusText = 'Nessuno ancora — sii il primo!';
       }
 
       const clickable = !isFull;
+      const namesHtml = namesText
+        ? `<div class="arena-players">👥 ${namesText}</div>`
+        : '';
+
       return `<div class="arena-card${isFull ? ' full' : ''}" 
                    onclick="${clickable ? `enterArena('${arena.id}')` : ''}">
         <div class="arena-emoji">${arena.emoji}</div>
         <div class="arena-info">
           <div class="arena-name">${arena.name}</div>
           <div class="arena-status">${statusText}</div>
+          ${namesHtml}
         </div>
         <div class="arena-badge ${badgeClass}">${badgeText}</div>
       </div>`;

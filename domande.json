@@ -1,97 +1,1492 @@
 [
-  { "q": "Qual è la capitale dell'Australia?", "a": ["Canberra","Sydney","Melbourne","Brisbane"], "cat": "🌍 Geografia" },
-  { "q": "In quale continente si trova il deserto del Sahara?", "a": ["Africa","Asia","Australia","America"], "cat": "🌍 Geografia" },
-  { "q": "Qual è il fiume più lungo del mondo?", "a": ["Rio delle Amazzoni","Nilo","Mississippi","Yangzé"], "cat": "🌍 Geografia" },
-  { "q": "Quanti stati ha gli USA?", "a": ["50","48","52","45"], "cat": "🌍 Geografia" },
-  { "q": "In quale paese si trova il Monte Everest?", "a": ["Nepal","Tibet","India","Bhutan"], "cat": "🌍 Geografia" },
-  { "q": "Qual è l'oceano più grande del mondo?", "a": ["Pacifico","Atlantico","Indiano","Artico"], "cat": "🌍 Geografia" },
-  { "q": "Quale paese ha la popolazione più numerosa al mondo?", "a": ["India","Cina","USA","Indonesia"], "cat": "🌍 Geografia" },
-  { "q": "Qual è il paese più grande del mondo per superficie?", "a": ["Russia","Canada","Cina","USA"], "cat": "🌍 Geografia" },
-  { "q": "Quale capitale africana si chiama come un animale?", "a": ["Niamey","Accra","Lagos","Dakar"], "cat": "🌍 Geografia" },
-  { "q": "In quale mare si trova l'isola di Sicilia?", "a": ["Mediterraneo","Adriatico","Tirreno","Ionio"], "cat": "🌍 Geografia" },
-  { "q": "Qual è il vulcano attivo più alto d'Europa?", "a": ["Etna","Vesuvio","Stromboli","Santorini"], "cat": "🌍 Geografia" },
-  { "q": "Quante regioni ha l'Italia?", "a": ["20","18","22","16"], "cat": "🌍 Geografia" },
-  { "q": "In che anno è caduto il Muro di Berlino?", "a": ["1989","1991","1985","1993"], "cat": "📜 Storia" },
-  { "q": "Chi ha dipinto la Gioconda?", "a": ["Leonardo da Vinci","Michelangelo","Raffaello","Botticelli"], "cat": "📜 Storia" },
-  { "q": "In che anno Cristoforo Colombo arrivò in America?", "a": ["1492","1498","1488","1502"], "cat": "📜 Storia" },
-  { "q": "Chi fu il primo uomo sulla Luna?", "a": ["Neil Armstrong","Buzz Aldrin","Yuri Gagarin","John Glenn"], "cat": "📜 Storia" },
-  { "q": "In che anno è iniziata la Prima Guerra Mondiale?", "a": ["1914","1918","1939","1910"], "cat": "📜 Storia" },
-  { "q": "In che anno è finita la Seconda Guerra Mondiale?", "a": ["1945","1944","1946","1943"], "cat": "📜 Storia" },
-  { "q": "Chi era il leader dell'Unione Sovietica durante la Seconda Guerra Mondiale?", "a": ["Stalin","Lenin","Krusciov","Trotsky"], "cat": "📜 Storia" },
-  { "q": "In quale anno fu proclamata la Repubblica Italiana?", "a": ["1946","1948","1944","1950"], "cat": "📜 Storia" },
-  { "q": "Chi fu il primo imperatore romano?", "a": ["Augusto","Giulio Cesare","Nerone","Traiano"], "cat": "📜 Storia" },
-  { "q": "La Rivoluzione Francese iniziò nel…", "a": ["1789","1776","1799","1804"], "cat": "📜 Storia" },
-  { "q": "Quale civiltà costruì Machu Picchu?", "a": ["Inca","Maya","Aztechi","Olmec"], "cat": "📜 Storia" },
-  { "q": "In quale città fu firmata la Magna Carta?", "a": ["Londra","Canterbury","Oxford","Winchester"], "cat": "📜 Storia" },
-  { "q": "Qual è il simbolo chimico dell'oro?", "a": ["Au","Go","Or","Ag"], "cat": "🔬 Scienza" },
-  { "q": "Quanti pianeti ha il Sistema Solare?", "a": ["8","9","7","10"], "cat": "🔬 Scienza" },
-  { "q": "Qual è la formula chimica dell'acqua?", "a": ["H₂O","CO₂","NaCl","O₂"], "cat": "🔬 Scienza" },
-  { "q": "Qual è l'elemento più abbondante nell'universo?", "a": ["Idrogeno","Ossigeno","Azoto","Carbonio"], "cat": "🔬 Scienza" },
-  { "q": "Quanti cromosomi ha una cellula umana?", "a": ["46","23","48","44"], "cat": "🔬 Scienza" },
-  { "q": "Chi ha formulato la teoria della relatività?", "a": ["Einstein","Newton","Galilei","Darwin"], "cat": "🔬 Scienza" },
-  { "q": "Qual è il pianeta più grande del Sistema Solare?", "a": ["Giove","Saturno","Nettuno","Urano"], "cat": "🔬 Scienza" },
-  { "q": "Quale pianeta è conosciuto come il Pianeta Rosso?", "a": ["Marte","Venere","Mercurio","Giove"], "cat": "🔬 Scienza" },
-  { "q": "A quale velocità viaggia la luce (circa)?", "a": ["300.000 km/s","150.000 km/s","500.000 km/s","100.000 km/s"], "cat": "🔬 Scienza" },
-  { "q": "Qual è il simbolo chimico del ferro?", "a": ["Fe","Fr","Fi","Fo"], "cat": "🔬 Scienza" },
-  { "q": "Quante ossa ha il corpo umano adulto?", "a": ["206","208","196","212"], "cat": "🔬 Scienza" },
-  { "q": "Quanto dura un anno luce in km (ordine di grandezza)?", "a": ["9,5 trilioni","1 miliardo","100 miliardi","1 trilione"], "cat": "🔬 Scienza" },
-  { "q": "Di cosa si nutre principalmente un panda gigante?", "a": ["Bambù","Frutta","Pesce","Foglie di eucalipto"], "cat": "🔬 Scienza" },
-  { "q": "Quanti giocatori ha una squadra di calcio in campo?", "a": ["11","10","12","9"], "cat": "⚽ Sport" },
-  { "q": "In quale sport si usa il termine 'slam dunk'?", "a": ["Basket","Pallavolo","Tennis","Baseball"], "cat": "⚽ Sport" },
-  { "q": "Ogni quanti anni si tengono i Giochi Olimpici estivi?", "a": ["4","2","3","5"], "cat": "⚽ Sport" },
-  { "q": "In quale città si sono svolte le Olimpiadi del 2020?", "a": ["Tokyo","Parigi","Londra","Rio"], "cat": "⚽ Sport" },
-  { "q": "Quanti punti vale una meta nel rugby?", "a": ["5","3","6","4"], "cat": "⚽ Sport" },
-  { "q": "In quale sport si compete per la Coppa Davis?", "a": ["Tennis","Nuoto","Ciclismo","Golf"], "cat": "⚽ Sport" },
-  { "q": "Quanti giocatori giocano in una squadra di pallavolo?", "a": ["6","5","7","8"], "cat": "⚽ Sport" },
-  { "q": "Qual è il torneo di tennis giocato sulla terra rossa?", "a": ["Roland Garros","Wimbledon","US Open","Australian Open"], "cat": "⚽ Sport" },
-  { "q": "In quale sport si usa il termine 'fuorigioco'?", "a": ["Calcio","Basket","Rugby","Hockey"], "cat": "⚽ Sport" },
-  { "q": "Quante tappe ha solitamente il Tour de France?", "a": ["21","18","24","15"], "cat": "⚽ Sport" },
-  { "q": "In quale sport si compete per la America's Cup?", "a": ["Vela","Nuoto","Canottaggio","Windsurf"], "cat": "⚽ Sport" },
-  { "q": "Quante corde ha una chitarra classica?", "a": ["6","4","5","7"], "cat": "🎵 Musica" },
-  { "q": "In quale città sono nati i Beatles?", "a": ["Liverpool","Londra","Manchester","Birmingham"], "cat": "🎵 Musica" },
-  { "q": "Chi è il 'Re del Pop'?", "a": ["Michael Jackson","Elvis Presley","Prince","David Bowie"], "cat": "🎵 Musica" },
-  { "q": "Quante note ci sono nella scala musicale?", "a": ["7","8","5","12"], "cat": "🎵 Musica" },
-  { "q": "Quale strumento suona Elton John?", "a": ["Pianoforte","Chitarra","Batteria","Violino"], "cat": "🎵 Musica" },
-  { "q": "In quale decennio è nata la musica punk?", "a": ["1970","1960","1980","1990"], "cat": "🎵 Musica" },
-  { "q": "Quante corde ha un violino?", "a": ["4","6","3","5"], "cat": "🎵 Musica" },
-  { "q": "Quale band ha pubblicato l'album 'Thriller'?", "a": ["Michael Jackson","Prince","Madonna","Whitney Houston"], "cat": "🎵 Musica" },
-  { "q": "Come si chiama la voce più acuta nel canto lirico femminile?", "a": ["Soprano","Contralto","Mezzosoprano","Tenore"], "cat": "🎵 Musica" },
-  { "q": "Quale strumento a fiato è tipico del jazz?", "a": ["Sassofono","Flauto","Oboe","Fagotto"], "cat": "🎵 Musica" },
-  { "q": "Quante tecle bianche ha un pianoforte standard?", "a": ["52","48","54","44"], "cat": "🎵 Musica" },
-  { "q": "Chi ha diretto il film 'Titanic' (1997)?", "a": ["James Cameron","Steven Spielberg","Christopher Nolan","Ridley Scott"], "cat": "🎬 Cinema" },
-  { "q": "In quale film appare il personaggio di Jack Sparrow?", "a": ["Pirati dei Caraibi","Waterworld","Master & Commander","Troia"], "cat": "🎬 Cinema" },
-  { "q": "Chi interpreta Tony Stark/Iron Man nel MCU?", "a": ["Robert Downey Jr.","Chris Evans","Chris Hemsworth","Mark Ruffalo"], "cat": "🎬 Cinema" },
-  { "q": "In quale film Simba è il protagonista?", "a": ["Il Re Leone","Bambi","Dumbo","Peter Pan"], "cat": "🎬 Cinema" },
-  { "q": "Quale film d'animazione Disney è ambientato in un regno di ghiaccio?", "a": ["Frozen","Brave","Tangled","Moana"], "cat": "🎬 Cinema" },
-  { "q": "In quale film compare la frase 'Io sono tuo padre'?", "a": ["Star Wars: L'Impero colpisce ancora","Star Wars: Una nuova speranza","Il Ritorno dello Jedi","Rogue One"], "cat": "🎬 Cinema" },
-  { "q": "Chi ha scritto e diretto 'C'era una volta a Hollywood'?", "a": ["Quentin Tarantino","Martin Scorsese","David Fincher","Coen Brothers"], "cat": "🎬 Cinema" },
-  { "q": "In quale film appare il robot R2-D2?", "a": ["Star Wars","Star Trek","Interstellar","Matrix"], "cat": "🎬 Cinema" },
-  { "q": "Quale attore interpreta Forrest Gump?", "a": ["Tom Hanks","Tom Cruise","Brad Pitt","Jim Carrey"], "cat": "🎬 Cinema" },
-  { "q": "In quale film si vede la scena della doccia di Psycho?", "a": ["Psycho","The Shining","Halloween","Scream"], "cat": "🎬 Cinema" },
-  { "q": "Quante ore ha un giorno?", "a": ["24","12","48","36"], "cat": "🧠 Cultura" },
-  { "q": "Quanti lati ha un esagono?", "a": ["6","5","7","8"], "cat": "🧠 Cultura" },
-  { "q": "Quanti secondi ci sono in un'ora?", "a": ["3600","600","1800","7200"], "cat": "🧠 Cultura" },
-  { "q": "Quale animale è il simbolo dell'Australia?", "a": ["Canguro","Koala","Emù","Wombat"], "cat": "🧠 Cultura" },
-  { "q": "Quante settimane ha un anno?", "a": ["52","48","54","50"], "cat": "🧠 Cultura" },
-  { "q": "Qual è la moneta ufficiale del Giappone?", "a": ["Yen","Won","Yuan","Baht"], "cat": "🧠 Cultura" },
-  { "q": "Quanti colori ha l'arcobaleno?", "a": ["7","6","8","5"], "cat": "🧠 Cultura" },
-  { "q": "Quale lingua è parlata in Brasile?", "a": ["Portoghese","Spagnolo","Brasiliano","Inglese"], "cat": "🧠 Cultura" },
-  { "q": "Quanti lati ha un triangolo?", "a": ["3","4","5","6"], "cat": "🧠 Cultura" },
-  { "q": "Quante lettere ha l'alfabeto italiano?", "a": ["21","26","24","23"], "cat": "🧠 Cultura" },
-  { "q": "Quale animale è simbolo della pace?", "a": ["Colomba","Aquila","Gru","Fenicottero"], "cat": "🧠 Cultura" },
-  { "q": "In quale anno fu inventato Internet (ARPANET)?", "a": ["1969","1989","1975","1983"], "cat": "🧠 Cultura" },
-  { "q": "Chi ha scritto la Divina Commedia?", "a": ["Dante Alighieri","Francesco Petrarca","Giovanni Boccaccio","Ludovico Ariosto"], "cat": "📚 Letteratura" },
-  { "q": "Chi ha scritto 'I Promessi Sposi'?", "a": ["Alessandro Manzoni","Ugo Foscolo","Giacomo Leopardi","Giovanni Verga"], "cat": "📚 Letteratura" },
-  { "q": "In quale opera appare il personaggio di Amleto?", "a": ["Shakespeare","Goethe","Molière","Ibsen"], "cat": "📚 Letteratura" },
-  { "q": "Chi ha scritto '1984'?", "a": ["George Orwell","Aldous Huxley","Ray Bradbury","Philip K. Dick"], "cat": "📚 Letteratura" },
-  { "q": "Chi ha scritto 'Il Piccolo Principe'?", "a": ["Antoine de Saint-Exupéry","Jules Verne","Victor Hugo","Albert Camus"], "cat": "📚 Letteratura" },
-  { "q": "In quale libro appare il personaggio di Atticus Finch?", "a": ["Il buio oltre la siepe","Via col vento","Grapes of Wrath","Of Mice and Men"], "cat": "📚 Letteratura" },
-  { "q": "Quanti romanzi ha scritto J.K. Rowling nella saga di Harry Potter?", "a": ["7","6","8","5"], "cat": "📚 Letteratura" },
-  { "q": "Quanti bit ci sono in un byte?", "a": ["8","16","4","32"], "cat": "💻 Tecnologia" },
-  { "q": "Cosa significa 'www' nel web?", "a": ["World Wide Web","World Wide Wire","Wide World Web","Web World Wide"], "cat": "💻 Tecnologia" },
-  { "q": "In quale anno fu fondato Facebook?", "a": ["2004","2003","2006","2005"], "cat": "💻 Tecnologia" },
-  { "q": "Qual è il sistema operativo mobile sviluppato da Apple?", "a": ["iOS","Android","Windows Phone","HarmonyOS"], "cat": "💻 Tecnologia" },
-  { "q": "Chi ha fondato Microsoft?", "a": ["Bill Gates","Steve Jobs","Elon Musk","Jeff Bezos"], "cat": "💻 Tecnologia" },
-  { "q": "Cosa fa un browser?", "a": ["Naviga su internet","Gestisce file","Protegge dai virus","Comprime dati"], "cat": "💻 Tecnologia" },
-  { "q": "Qual è il social media con più utenti al mondo?", "a": ["Facebook","YouTube","Instagram","TikTok"], "cat": "💻 Tecnologia" }
+  {
+    "q": "Qual è la capitale dell'Australia?",
+    "a": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale continente si trova il deserto del Sahara?",
+    "a": [
+      "Africa",
+      "Asia",
+      "Australia",
+      "America"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Qual è il fiume più lungo del mondo?",
+    "a": [
+      "Rio delle Amazzoni",
+      "Nilo",
+      "Mississippi",
+      "Yangzé"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quanti stati ha gli USA?",
+    "a": [
+      "50",
+      "48",
+      "52",
+      "45"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale paese si trova il Monte Everest?",
+    "a": [
+      "Nepal",
+      "Tibet",
+      "India",
+      "Bhutan"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Qual è l'oceano più grande del mondo?",
+    "a": [
+      "Pacifico",
+      "Atlantico",
+      "Indiano",
+      "Artico"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale paese ha la popolazione più numerosa al mondo?",
+    "a": [
+      "India",
+      "Cina",
+      "USA",
+      "Indonesia"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Qual è il paese più grande del mondo per superficie?",
+    "a": [
+      "Russia",
+      "Canada",
+      "Cina",
+      "USA"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale capitale africana si chiama come un animale?",
+    "a": [
+      "Niamey",
+      "Accra",
+      "Lagos",
+      "Dakar"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale mare si trova l'isola di Sicilia?",
+    "a": [
+      "Mediterraneo",
+      "Adriatico",
+      "Tirreno",
+      "Ionio"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Qual è il vulcano attivo più alto d'Europa?",
+    "a": [
+      "Etna",
+      "Vesuvio",
+      "Stromboli",
+      "Santorini"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quante regioni ha l'Italia?",
+    "a": [
+      "20",
+      "18",
+      "22",
+      "16"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In che anno è caduto il Muro di Berlino?",
+    "a": [
+      "1989",
+      "1991",
+      "1985",
+      "1993"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Chi ha dipinto la Gioconda?",
+    "a": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raffaello",
+      "Botticelli"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In che anno Cristoforo Colombo arrivò in America?",
+    "a": [
+      "1492",
+      "1498",
+      "1488",
+      "1502"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Chi fu il primo uomo sulla Luna?",
+    "a": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "John Glenn"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In che anno è iniziata la Prima Guerra Mondiale?",
+    "a": [
+      "1914",
+      "1918",
+      "1939",
+      "1910"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In che anno è finita la Seconda Guerra Mondiale?",
+    "a": [
+      "1945",
+      "1944",
+      "1946",
+      "1943"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Chi era il leader dell'Unione Sovietica durante la Seconda Guerra Mondiale?",
+    "a": [
+      "Stalin",
+      "Lenin",
+      "Krusciov",
+      "Trotsky"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale anno fu proclamata la Repubblica Italiana?",
+    "a": [
+      "1946",
+      "1948",
+      "1944",
+      "1950"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Chi fu il primo imperatore romano?",
+    "a": [
+      "Augusto",
+      "Giulio Cesare",
+      "Nerone",
+      "Traiano"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "La Rivoluzione Francese iniziò nel…",
+    "a": [
+      "1789",
+      "1776",
+      "1799",
+      "1804"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Quale civiltà costruì Machu Picchu?",
+    "a": [
+      "Inca",
+      "Maya",
+      "Aztechi",
+      "Olmec"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale città fu firmata la Magna Carta?",
+    "a": [
+      "Londra",
+      "Canterbury",
+      "Oxford",
+      "Winchester"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Qual è il simbolo chimico dell'oro?",
+    "a": [
+      "Au",
+      "Go",
+      "Or",
+      "Ag"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quanti pianeti ha il Sistema Solare?",
+    "a": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Qual è la formula chimica dell'acqua?",
+    "a": [
+      "H₂O",
+      "CO₂",
+      "NaCl",
+      "O₂"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Qual è l'elemento più abbondante nell'universo?",
+    "a": [
+      "Idrogeno",
+      "Ossigeno",
+      "Azoto",
+      "Carbonio"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quanti cromosomi ha una cellula umana?",
+    "a": [
+      "46",
+      "23",
+      "48",
+      "44"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Chi ha formulato la teoria della relatività?",
+    "a": [
+      "Einstein",
+      "Newton",
+      "Galilei",
+      "Darwin"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Qual è il pianeta più grande del Sistema Solare?",
+    "a": [
+      "Giove",
+      "Saturno",
+      "Nettuno",
+      "Urano"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quale pianeta è conosciuto come il Pianeta Rosso?",
+    "a": [
+      "Marte",
+      "Venere",
+      "Mercurio",
+      "Giove"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "A quale velocità viaggia la luce (circa)?",
+    "a": [
+      "300.000 km/s",
+      "150.000 km/s",
+      "500.000 km/s",
+      "100.000 km/s"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Qual è il simbolo chimico del ferro?",
+    "a": [
+      "Fe",
+      "Fr",
+      "Fi",
+      "Fo"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quante ossa ha il corpo umano adulto?",
+    "a": [
+      "206",
+      "208",
+      "196",
+      "212"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quanto dura un anno luce in km (ordine di grandezza)?",
+    "a": [
+      "9,5 trilioni",
+      "1 miliardo",
+      "100 miliardi",
+      "1 trilione"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Di cosa si nutre principalmente un panda gigante?",
+    "a": [
+      "Bambù",
+      "Frutta",
+      "Pesce",
+      "Foglie di eucalipto"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quanti giocatori ha una squadra di calcio in campo?",
+    "a": [
+      "11",
+      "10",
+      "12",
+      "9"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale sport si usa il termine 'slam dunk'?",
+    "a": [
+      "Basket",
+      "Pallavolo",
+      "Tennis",
+      "Baseball"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Ogni quanti anni si tengono i Giochi Olimpici estivi?",
+    "a": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale città si sono svolte le Olimpiadi del 2020?",
+    "a": [
+      "Tokyo",
+      "Parigi",
+      "Londra",
+      "Rio"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quanti punti vale una meta nel rugby?",
+    "a": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale sport si compete per la Coppa Davis?",
+    "a": [
+      "Tennis",
+      "Nuoto",
+      "Ciclismo",
+      "Golf"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quanti giocatori giocano in una squadra di pallavolo?",
+    "a": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Qual è il torneo di tennis giocato sulla terra rossa?",
+    "a": [
+      "Roland Garros",
+      "Wimbledon",
+      "US Open",
+      "Australian Open"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale sport si usa il termine 'fuorigioco'?",
+    "a": [
+      "Calcio",
+      "Basket",
+      "Rugby",
+      "Hockey"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quante tappe ha solitamente il Tour de France?",
+    "a": [
+      "21",
+      "18",
+      "24",
+      "15"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale sport si compete per la America's Cup?",
+    "a": [
+      "Vela",
+      "Nuoto",
+      "Canottaggio",
+      "Windsurf"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quante corde ha una chitarra classica?",
+    "a": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "In quale città sono nati i Beatles?",
+    "a": [
+      "Liverpool",
+      "Londra",
+      "Manchester",
+      "Birmingham"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Chi è il 'Re del Pop'?",
+    "a": [
+      "Michael Jackson",
+      "Elvis Presley",
+      "Prince",
+      "David Bowie"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quante note ci sono nella scala musicale?",
+    "a": [
+      "7",
+      "8",
+      "5",
+      "12"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale strumento suona Elton John?",
+    "a": [
+      "Pianoforte",
+      "Chitarra",
+      "Batteria",
+      "Violino"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "In quale decennio è nata la musica punk?",
+    "a": [
+      "1970",
+      "1960",
+      "1980",
+      "1990"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quante corde ha un violino?",
+    "a": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale band ha pubblicato l'album 'Thriller'?",
+    "a": [
+      "Michael Jackson",
+      "Prince",
+      "Madonna",
+      "Whitney Houston"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Come si chiama la voce più acuta nel canto lirico femminile?",
+    "a": [
+      "Soprano",
+      "Contralto",
+      "Mezzosoprano",
+      "Tenore"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale strumento a fiato è tipico del jazz?",
+    "a": [
+      "Sassofono",
+      "Flauto",
+      "Oboe",
+      "Fagotto"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quante tecle bianche ha un pianoforte standard?",
+    "a": [
+      "52",
+      "48",
+      "54",
+      "44"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Chi ha diretto il film 'Titanic' (1997)?",
+    "a": [
+      "James Cameron",
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Ridley Scott"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale film appare il personaggio di Jack Sparrow?",
+    "a": [
+      "Pirati dei Caraibi",
+      "Waterworld",
+      "Master & Commander",
+      "Troia"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Chi interpreta Tony Stark/Iron Man nel MCU?",
+    "a": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale film Simba è il protagonista?",
+    "a": [
+      "Il Re Leone",
+      "Bambi",
+      "Dumbo",
+      "Peter Pan"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quale film d'animazione Disney è ambientato in un regno di ghiaccio?",
+    "a": [
+      "Frozen",
+      "Brave",
+      "Tangled",
+      "Moana"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale film compare la frase 'Io sono tuo padre'?",
+    "a": [
+      "Star Wars: L'Impero colpisce ancora",
+      "Star Wars: Una nuova speranza",
+      "Il Ritorno dello Jedi",
+      "Rogue One"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Chi ha scritto e diretto 'C'era una volta a Hollywood'?",
+    "a": [
+      "Quentin Tarantino",
+      "Martin Scorsese",
+      "David Fincher",
+      "Coen Brothers"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale film appare il robot R2-D2?",
+    "a": [
+      "Star Wars",
+      "Star Trek",
+      "Interstellar",
+      "Matrix"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quale attore interpreta Forrest Gump?",
+    "a": [
+      "Tom Hanks",
+      "Tom Cruise",
+      "Brad Pitt",
+      "Jim Carrey"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale film si vede la scena della doccia di Psycho?",
+    "a": [
+      "Psycho",
+      "The Shining",
+      "Halloween",
+      "Scream"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quante ore ha un giorno?",
+    "a": [
+      "24",
+      "12",
+      "48",
+      "36"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quanti lati ha un esagono?",
+    "a": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quanti secondi ci sono in un'ora?",
+    "a": [
+      "3600",
+      "600",
+      "1800",
+      "7200"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quale animale è il simbolo dell'Australia?",
+    "a": [
+      "Canguro",
+      "Koala",
+      "Emù",
+      "Wombat"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quante settimane ha un anno?",
+    "a": [
+      "52",
+      "48",
+      "54",
+      "50"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Qual è la moneta ufficiale del Giappone?",
+    "a": [
+      "Yen",
+      "Won",
+      "Yuan",
+      "Baht"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quanti colori ha l'arcobaleno?",
+    "a": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quale lingua è parlata in Brasile?",
+    "a": [
+      "Portoghese",
+      "Spagnolo",
+      "Brasiliano",
+      "Inglese"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quanti lati ha un triangolo?",
+    "a": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quante lettere ha l'alfabeto italiano?",
+    "a": [
+      "21",
+      "26",
+      "24",
+      "23"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quale animale è simbolo della pace?",
+    "a": [
+      "Colomba",
+      "Aquila",
+      "Gru",
+      "Fenicottero"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "In quale anno fu inventato Internet (ARPANET)?",
+    "a": [
+      "1969",
+      "1989",
+      "1975",
+      "1983"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Chi ha scritto la Divina Commedia?",
+    "a": [
+      "Dante Alighieri",
+      "Francesco Petrarca",
+      "Giovanni Boccaccio",
+      "Ludovico Ariosto"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'I Promessi Sposi'?",
+    "a": [
+      "Alessandro Manzoni",
+      "Ugo Foscolo",
+      "Giacomo Leopardi",
+      "Giovanni Verga"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "In quale opera appare il personaggio di Amleto?",
+    "a": [
+      "Shakespeare",
+      "Goethe",
+      "Molière",
+      "Ibsen"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto '1984'?",
+    "a": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "Philip K. Dick"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Il Piccolo Principe'?",
+    "a": [
+      "Antoine de Saint-Exupéry",
+      "Jules Verne",
+      "Victor Hugo",
+      "Albert Camus"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "In quale libro appare il personaggio di Atticus Finch?",
+    "a": [
+      "Il buio oltre la siepe",
+      "Via col vento",
+      "Grapes of Wrath",
+      "Of Mice and Men"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Quanti romanzi ha scritto J.K. Rowling nella saga di Harry Potter?",
+    "a": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Quanti bit ci sono in un byte?",
+    "a": [
+      "8",
+      "16",
+      "4",
+      "32"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Cosa significa 'www' nel web?",
+    "a": [
+      "World Wide Web",
+      "World Wide Wire",
+      "Wide World Web",
+      "Web World Wide"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "In quale anno fu fondato Facebook?",
+    "a": [
+      "2004",
+      "2003",
+      "2006",
+      "2005"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Qual è il sistema operativo mobile sviluppato da Apple?",
+    "a": [
+      "iOS",
+      "Android",
+      "Windows Phone",
+      "HarmonyOS"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Chi ha fondato Microsoft?",
+    "a": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Elon Musk",
+      "Jeff Bezos"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Cosa fa un browser?",
+    "a": [
+      "Naviga su internet",
+      "Gestisce file",
+      "Protegge dai virus",
+      "Comprime dati"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Qual è il social media con più utenti al mondo?",
+    "a": [
+      "Facebook",
+      "YouTube",
+      "Instagram",
+      "TikTok"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Qual è la capitale della Norvegia?",
+    "a": [
+      "Oslo",
+      "Bergen",
+      "Stavanger",
+      "Trondheim"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale paese si trova Machu Picchu?",
+    "a": [
+      "Perù",
+      "Cile",
+      "Bolivia",
+      "Colombia"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale è il monte più alto d'Africa?",
+    "a": [
+      "Kilimangiaro",
+      "Monte Kenya",
+      "Ruwenzori",
+      "Monte Camerun"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale città è divisa in due continenti?",
+    "a": [
+      "Istanbul",
+      "Mosca",
+      "Cairo",
+      "Atene"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale paese si trova il fiume Gange?",
+    "a": [
+      "India",
+      "Bangladesh",
+      "Nepal",
+      "Pakistan"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Qual è il paese più piccolo del mondo?",
+    "a": [
+      "Città del Vaticano",
+      "Monaco",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale deserto si trova in Cina e Mongolia?",
+    "a": [
+      "Deserto del Gobi",
+      "Deserto di Taklamakan",
+      "Deserto del Karakum",
+      "Deserto di Thar"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale è il lago più profondo del mondo?",
+    "a": [
+      "Baikal",
+      "Tanganica",
+      "Superiore",
+      "Vittoria"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale anno fu costruita la Torre Eiffel?",
+    "a": [
+      "1889",
+      "1875",
+      "1900",
+      "1912"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Chi fu il primo Presidente degli Stati Uniti?",
+    "a": [
+      "George Washington",
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "Benjamin Franklin"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale anno Napoleone fu esiliato a Sant'Elena?",
+    "a": [
+      "1815",
+      "1810",
+      "1820",
+      "1812"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Quale civiltà costruì le piramidi di Giza?",
+    "a": [
+      "Egizi",
+      "Greci",
+      "Romani",
+      "Fenici"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale anno fu fondata Roma, secondo la tradizione?",
+    "a": [
+      "753 a.C.",
+      "500 a.C.",
+      "1000 a.C.",
+      "300 a.C."
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Chi scrisse 'Il Principe'?",
+    "a": [
+      "Niccolò Machiavelli",
+      "Dante Alighieri",
+      "Francesco Guicciardini",
+      "Cesare Borgia"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale anno fu scoperta l'America da Colombo?",
+    "a": [
+      "1492",
+      "1488",
+      "1499",
+      "1502"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Qual è il numero atomico dell'ossigeno?",
+    "a": [
+      "8",
+      "6",
+      "10",
+      "16"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quante ossa ha la mano umana?",
+    "a": [
+      "27",
+      "20",
+      "18",
+      "32"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Cosa studia la sismologia?",
+    "a": [
+      "I terremoti",
+      "Le stelle",
+      "I vulcani",
+      "Il clima"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Qual è la distanza media Terra-Luna in km?",
+    "a": [
+      "384.000",
+      "150.000",
+      "600.000",
+      "250.000"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quale organo produce l'insulina?",
+    "a": [
+      "Pancreas",
+      "Fegato",
+      "Reni",
+      "Stomaco"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quanti neuroni ha il cervello umano circa?",
+    "a": [
+      "86 miliardi",
+      "1 miliardo",
+      "500 milioni",
+      "10 miliardi"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quale gas è più abbondante nell'atmosfera terrestre?",
+    "a": [
+      "Azoto",
+      "Ossigeno",
+      "Argon",
+      "CO₂"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quanti set vince chi prende il Grande Slam nel tennis?",
+    "a": [
+      "3 su 5",
+      "2 su 3",
+      "4 su 7",
+      "5 su 9"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale sport si usa il termine 'birdie'?",
+    "a": [
+      "Golf",
+      "Tennis",
+      "Badminton",
+      "Cricket"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quanti anelli ha il simbolo olimpico?",
+    "a": [
+      "5",
+      "4",
+      "6",
+      "3"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quale squadra ha vinto più Mondiali di calcio?",
+    "a": [
+      "Brasile",
+      "Germania",
+      "Italia",
+      "Argentina"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale sport si compete per la Ryder Cup?",
+    "a": [
+      "Golf",
+      "Tennis",
+      "Equitazione",
+      "Polo"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quanto dura una partita di basket NBA (tempi regolamentari)?",
+    "a": [
+      "48 minuti",
+      "40 minuti",
+      "60 minuti",
+      "36 minuti"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quale artista ha pubblicato l'album 'Purple Rain'?",
+    "a": [
+      "Prince",
+      "Michael Jackson",
+      "David Bowie",
+      "Stevie Wonder"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "In quale anno uscì 'Bohemian Rhapsody' dei Queen?",
+    "a": [
+      "1975",
+      "1972",
+      "1980",
+      "1978"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quante tecle nere ha un pianoforte standard?",
+    "a": [
+      "36",
+      "28",
+      "40",
+      "32"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale strumento suona Carlos Santana?",
+    "a": [
+      "Chitarra elettrica",
+      "Basso",
+      "Batteria",
+      "Pianoforte"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Come si chiama la composizione musicale di Beethoven soprannominata 'Per Elisa'?",
+    "a": [
+      "Bagatella in La minore",
+      "Sonata al chiaro di luna",
+      "Inno alla gioia",
+      "Lettera ad Elisa"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale film ha vinto più Oscar nella storia?",
+    "a": [
+      "Ben-Hur / Titanic / Il Signore degli Anelli",
+      "Avatar",
+      "Braveheart",
+      "La La Land"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Chi interpreta Hermione Granger nella saga di Harry Potter?",
+    "a": [
+      "Emma Watson",
+      "Emma Stone",
+      "Keira Knightley",
+      "Natalie Portman"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale anno uscì il primo film di Matrix?",
+    "a": [
+      "1999",
+      "1997",
+      "2001",
+      "2003"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quale attore interpreta Batman in 'Il Cavaliere Oscuro'?",
+    "a": [
+      "Christian Bale",
+      "Ben Affleck",
+      "Michael Keaton",
+      "George Clooney"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Chi ha diretto 'Schindler's List'?",
+    "a": [
+      "Steven Spielberg",
+      "Martin Scorsese",
+      "Francis Ford Coppola",
+      "Stanley Kubrick"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Qual è la valuta dell'Inghilterra?",
+    "a": [
+      "Sterlina",
+      "Euro",
+      "Corona",
+      "Franco"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quanti minuti ha un'ora?",
+    "a": [
+      "60",
+      "50",
+      "100",
+      "45"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "In quanti continenti è divisa la Terra?",
+    "a": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quale città ospita il Colosseo?",
+    "a": [
+      "Roma",
+      "Atene",
+      "Napoli",
+      "Firenze"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quante ore ha una settimana?",
+    "a": [
+      "168",
+      "144",
+      "196",
+      "120"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Chi ha scritto 'Guerra e Pace'?",
+    "a": [
+      "Tolstoj",
+      "Dostoevskij",
+      "Turgenev",
+      "Puskin"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "In quale romanzo appare il personaggio di Ishmael e il capitano Achab?",
+    "a": [
+      "Moby Dick",
+      "L'isola del tesoro",
+      "Il vecchio e il mare",
+      "Robinson Crusoe"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Il nome della rosa'?",
+    "a": [
+      "Umberto Eco",
+      "Italo Calvino",
+      "Alberto Moravia",
+      "Cesare Pavese"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Quale personaggio di Shakespeare dice 'Essere o non essere'?",
+    "a": [
+      "Amleto",
+      "Otello",
+      "Macbeth",
+      "Romeo"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Il Conte di Montecristo'?",
+    "a": [
+      "Alexandre Dumas",
+      "Victor Hugo",
+      "Émile Zola",
+      "Stendhal"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Cosa significa l'acronimo 'CPU'?",
+    "a": [
+      "Central Processing Unit",
+      "Computer Power Unit",
+      "Central Program Utility",
+      "Core Processing Unit"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Quale azienda ha sviluppato il sistema operativo Android?",
+    "a": [
+      "Google",
+      "Apple",
+      "Microsoft",
+      "Samsung"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "In quale anno fu lanciato il primo iPhone?",
+    "a": [
+      "2007",
+      "2005",
+      "2008",
+      "2010"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Cosa fa un firewall?",
+    "a": [
+      "Protegge la rete da accessi non autorizzati",
+      "Velocizza la connessione",
+      "Comprimi i file",
+      "Gestisce la posta elettronica"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Qual è la risoluzione di uno schermo Full HD?",
+    "a": [
+      "1920×1080",
+      "1280×720",
+      "2560×1440",
+      "3840×2160"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Chi ha fondato Tesla?",
+    "a": [
+      "Elon Musk e altri fondatori",
+      "Elon Musk da solo",
+      "Jeff Bezos",
+      "Bill Gates"
+    ],
+    "cat": "💻 Tecnologia"
+  }
 ]
