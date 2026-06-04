@@ -1488,5 +1488,1355 @@
       "Bill Gates"
     ],
     "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Qual è la capitale del Canada?",
+    "a": [
+      "Ottawa",
+      "Toronto",
+      "Vancouver",
+      "Montreal"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale paese si trova Angkor Wat?",
+    "a": [
+      "Cambogia",
+      "Thailandia",
+      "Vietnam",
+      "Laos"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Qual è il paese con più isole al mondo?",
+    "a": [
+      "Svezia",
+      "Indonesia",
+      "Filippine",
+      "Norvegia"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale stretto separa Europa e Africa?",
+    "a": [
+      "Stretto di Gibilterra",
+      "Stretto di Messina",
+      "Stretto di Bering",
+      "Stretto di Magellano"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale continente si trova il Madagascar?",
+    "a": [
+      "Africa",
+      "Asia",
+      "Oceania",
+      "America"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Qual è il fiume più lungo d'Europa?",
+    "a": [
+      "Volga",
+      "Danubio",
+      "Reno",
+      "Elba"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale paese confina a nord con l'Italia?",
+    "a": [
+      "Austria",
+      "Francia",
+      "Svizzera",
+      "Slovenia"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale paese si trova il deserto di Atacama?",
+    "a": [
+      "Cile",
+      "Peru",
+      "Argentina",
+      "Bolivia"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Qual è la città più popolosa del mondo?",
+    "a": [
+      "Tokyo",
+      "Delhi",
+      "Shanghai",
+      "São Paulo"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale paese ha la costa più lunga del mondo?",
+    "a": [
+      "Canada",
+      "Russia",
+      "Australia",
+      "Norvegia"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale oceano si trovano le isole Hawaii?",
+    "a": [
+      "Pacifico",
+      "Atlantico",
+      "Indiano",
+      "Artico"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale catena montuosa separa Europa e Asia?",
+    "a": [
+      "Urali",
+      "Caucaso",
+      "Alpi",
+      "Carpazi"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Qual è la capitale dell'Argentina?",
+    "a": [
+      "Buenos Aires",
+      "Córdoba",
+      "Rosario",
+      "Mendoza"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "In quale paese si trova il Taj Mahal?",
+    "a": [
+      "India",
+      "Pakistan",
+      "Bangladesh",
+      "Nepal"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Quale è la capitale della Nuova Zelanda?",
+    "a": [
+      "Wellington",
+      "Auckland",
+      "Christchurch",
+      "Hamilton"
+    ],
+    "cat": "🌍 Geografia"
+  },
+  {
+    "q": "Chi costruì il Colosseo?",
+    "a": [
+      "Vespasiano",
+      "Augusto",
+      "Nerone",
+      "Traiano"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale anno fu scoperta l'America da Vespucci?",
+    "a": [
+      "1499",
+      "1492",
+      "1507",
+      "1510"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Quale impero era governato da Gengis Khan?",
+    "a": [
+      "Mongolo",
+      "Ottomano",
+      "Persiano",
+      "Han"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale città fu assassinato Giulio Cesare?",
+    "a": [
+      "Roma",
+      "Napoli",
+      "Cartagine",
+      "Alessandria"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Quale guerra si concluse con il Trattato di Versailles?",
+    "a": [
+      "Prima Guerra Mondiale",
+      "Seconda Guerra Mondiale",
+      "Guerra di Crimea",
+      "Guerra Franco-prussiana"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Chi fu il primo astronauta a viaggiare nello spazio?",
+    "a": [
+      "Yuri Gagarin",
+      "Neil Armstrong",
+      "Alan Shepard",
+      "Buzz Aldrin"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale anno fu inventata la stampa a caratteri mobili da Gutenberg?",
+    "a": [
+      "1450",
+      "1350",
+      "1500",
+      "1520"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Quale civiltà inventò la scrittura cuneiforme?",
+    "a": [
+      "Sumeri",
+      "Egizi",
+      "Greci",
+      "Fenici"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Chi guidò la spedizione dei Mille?",
+    "a": [
+      "Garibaldi",
+      "Cavour",
+      "Mazzini",
+      "Vittorio Emanuele II"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale anno fu fondata l'Unione Europea (Trattato di Maastricht)?",
+    "a": [
+      "1993",
+      "1989",
+      "1999",
+      "1957"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Quale imperatore romano adottò il Cristianesimo?",
+    "a": [
+      "Costantino",
+      "Teodosio",
+      "Diocleziano",
+      "Augusto"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Dove fu firmata la Dichiarazione di Indipendenza americana?",
+    "a": [
+      "Filadelfia",
+      "Boston",
+      "Washington",
+      "New York"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Quale storico greco è considerato il padre della storia?",
+    "a": [
+      "Erodoto",
+      "Tucidide",
+      "Plutarco",
+      "Polibio"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "In quale anno cadde l'Impero Romano d'Occidente?",
+    "a": [
+      "476 d.C.",
+      "410 d.C.",
+      "395 d.C.",
+      "500 d.C."
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Chi fu l'ultimo faraone d'Egitto?",
+    "a": [
+      "Cleopatra VII",
+      "Nefertiti",
+      "Hatshepsut",
+      "Ramses II"
+    ],
+    "cat": "📜 Storia"
+  },
+  {
+    "q": "Quanti denti ha un adulto umano?",
+    "a": [
+      "32",
+      "28",
+      "30",
+      "36"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Qual è l'organo più grande del corpo umano?",
+    "a": [
+      "Pelle",
+      "Fegato",
+      "Polmone",
+      "Intestino"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "A quale temperatura bolle l'acqua a livello del mare?",
+    "a": [
+      "100°C",
+      "90°C",
+      "95°C",
+      "105°C"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quanti elementi ha la tavola periodica (attualmente)?",
+    "a": [
+      "118",
+      "108",
+      "112",
+      "120"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Cosa studia la meteorologia?",
+    "a": [
+      "Il tempo atmosferico",
+      "I meteori",
+      "Le stelle cadenti",
+      "I terremoti"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Qual è la particella subatomica con carica negativa?",
+    "a": [
+      "Elettrone",
+      "Protone",
+      "Neutrone",
+      "Positrone"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quale gas respirano le piante durante la fotosintesi?",
+    "a": [
+      "CO₂",
+      "Ossigeno",
+      "Azoto",
+      "Idrogeno"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quante vertebre ha la colonna vertebrale umana?",
+    "a": [
+      "33",
+      "24",
+      "28",
+      "36"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quale pianeta ha più lune nel sistema solare?",
+    "a": [
+      "Saturno",
+      "Giove",
+      "Urano",
+      "Nettuno"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Cos'è la clorofilla?",
+    "a": [
+      "Pigmento verde delle piante",
+      "Proteina degli animali",
+      "Gas atmosferico",
+      "Acido del suolo"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quale scienziato formulò la legge di gravitazione universale?",
+    "a": [
+      "Newton",
+      "Einstein",
+      "Galileo",
+      "Kepler"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quanti grammi ha un chilogrammo?",
+    "a": [
+      "1000",
+      "100",
+      "10000",
+      "500"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Qual è il simbolo chimico dell'argento?",
+    "a": [
+      "Ag",
+      "Si",
+      "Ar",
+      "Al"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Come si chiama il processo di divisione cellulare?",
+    "a": [
+      "Mitosi",
+      "Meiosi",
+      "Osmosi",
+      "Citosi"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Quale animale ha il DNA più simile all'uomo?",
+    "a": [
+      "Scimpanzé",
+      "Gorilla",
+      "Orangutan",
+      "Bonobo"
+    ],
+    "cat": "🔬 Scienza"
+  },
+  {
+    "q": "Chi ha vinto più palloni d'oro nella storia?",
+    "a": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Ronaldo il Fenomeno",
+      "Zinedine Zidane"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale sport si usa il termine 'ace'?",
+    "a": [
+      "Tennis",
+      "Golf",
+      "Badminton",
+      "Pallavolo"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quante medaglie d'oro ha vinto Michael Phelps alle Olimpiadi?",
+    "a": [
+      "23",
+      "18",
+      "20",
+      "15"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale anno l'Italia ha vinto il suo ultimo Mondiale di calcio?",
+    "a": [
+      "2006",
+      "1982",
+      "1994",
+      "2002"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quanto è lungo un campo da calcio regolamentare (lunghezza massima)?",
+    "a": [
+      "120 m",
+      "100 m",
+      "110 m",
+      "105 m"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quale squadra ha vinto più Champions League?",
+    "a": [
+      "Real Madrid",
+      "Barcelona",
+      "Bayern Monaco",
+      "Juventus"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale sport si compete per la Stanley Cup?",
+    "a": [
+      "Hockey su ghiaccio",
+      "Baseball",
+      "Football americano",
+      "Lacrosse"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Chi detiene il record mondiale dei 100m maschili?",
+    "a": [
+      "Usain Bolt",
+      "Tyson Gay",
+      "Asafa Powell",
+      "Justin Gatlin"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quante buche ha un campo da golf standard?",
+    "a": [
+      "18",
+      "9",
+      "12",
+      "24"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale sport si usa il termine 'schiacciata'?",
+    "a": [
+      "Pallavolo",
+      "Tennis",
+      "Badminton",
+      "Squash"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quale nazione ha vinto più medaglie totali nella storia delle Olimpiadi?",
+    "a": [
+      "USA",
+      "Russia",
+      "Cina",
+      "Germania"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Quante persone compongono una squadra di baseball?",
+    "a": [
+      "9",
+      "8",
+      "10",
+      "11"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "In quale anno si svolsero le prime Olimpiadi moderne?",
+    "a": [
+      "1896",
+      "1900",
+      "1904",
+      "1892"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Qual è la distanza di una maratona?",
+    "a": [
+      "42,195 km",
+      "40 km",
+      "45 km",
+      "50 km"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Chi ha vinto più titoli di Wimbledon (maschile)?",
+    "a": [
+      "Novak Djokovic",
+      "Roger Federer",
+      "Pete Sampras",
+      "Rafael Nadal"
+    ],
+    "cat": "⚽ Sport"
+  },
+  {
+    "q": "Chi ha composto la Quinta Sinfonia?",
+    "a": [
+      "Beethoven",
+      "Mozart",
+      "Bach",
+      "Brahms"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale band ha pubblicato 'Dark Side of the Moon'?",
+    "a": [
+      "Pink Floyd",
+      "Led Zeppelin",
+      "The Who",
+      "Deep Purple"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "In quale anno uscì 'Like a Rolling Stone' di Bob Dylan?",
+    "a": [
+      "1965",
+      "1963",
+      "1967",
+      "1970"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quante ottave ha una voce soprano di solito?",
+    "a": [
+      "Circa 2",
+      "1",
+      "3",
+      "4"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale artista è soprannominato 'La Voce'?",
+    "a": [
+      "Frank Sinatra",
+      "Dean Martin",
+      "Tony Bennett",
+      "Sammy Davis Jr."
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Come si chiama la prima nota della scala musicale?",
+    "a": [
+      "Do",
+      "La",
+      "Sol",
+      "Re"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale band degli anni '90 aveva Kurt Cobain come cantante?",
+    "a": [
+      "Nirvana",
+      "Pearl Jam",
+      "Soundgarden",
+      "Alice in Chains"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Chi è il cantante degli U2?",
+    "a": [
+      "Bono",
+      "The Edge",
+      "Adam Clayton",
+      "Larry Mullen Jr."
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "In quale decennio è nata la musica hip-hop?",
+    "a": [
+      "1970",
+      "1980",
+      "1960",
+      "1990"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale strumento suona Yo-Yo Ma?",
+    "a": [
+      "Violoncello",
+      "Violino",
+      "Contrabbasso",
+      "Viola"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Chi ha scritto l'opera 'La Traviata'?",
+    "a": [
+      "Verdi",
+      "Puccini",
+      "Rossini",
+      "Donizetti"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale artista ha pubblicato l'album '21'?",
+    "a": [
+      "Adele",
+      "Beyoncé",
+      "Amy Winehouse",
+      "Rihanna"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quante corde ha un basso elettrico standard?",
+    "a": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Quale band ha pubblicato 'Hotel California'?",
+    "a": [
+      "Eagles",
+      "Fleetwood Mac",
+      "The Doors",
+      "Lynyrd Skynyrd"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Come si chiama il segno musicale che indica di ripetere un brano?",
+    "a": [
+      "Ritornello",
+      "Coda",
+      "Fermata",
+      "Staccato"
+    ],
+    "cat": "🎵 Musica"
+  },
+  {
+    "q": "Chi ha diretto la trilogia de 'Il Signore degli Anelli'?",
+    "a": [
+      "Peter Jackson",
+      "Steven Spielberg",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quale film ha incassato di più nella storia del cinema?",
+    "a": [
+      "Avatar",
+      "Avengers: Endgame",
+      "Titanic",
+      "Star Wars: Il Risveglio della Forza"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Chi interpreta il Joker nel film del 2019?",
+    "a": [
+      "Joaquin Phoenix",
+      "Heath Ledger",
+      "Jack Nicholson",
+      "Jared Leto"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale anno uscì 'Jurassic Park'?",
+    "a": [
+      "1993",
+      "1991",
+      "1995",
+      "1997"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quale attrice interpreta Katniss in 'Hunger Games'?",
+    "a": [
+      "Jennifer Lawrence",
+      "Emma Stone",
+      "Kristen Stewart",
+      "Shailene Woodley"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Chi ha diretto '2001: Odissea nello spazio'?",
+    "a": [
+      "Stanley Kubrick",
+      "Steven Spielberg",
+      "Ridley Scott",
+      "George Lucas"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale film compare la frase 'Frankly, my dear, I don't give a damn'?",
+    "a": [
+      "Via col Vento",
+      "Casablanca",
+      "Rebecca",
+      "Notorious"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quale attore interpreta Indiana Jones?",
+    "a": [
+      "Harrison Ford",
+      "Tom Hanks",
+      "Mel Gibson",
+      "Kurt Russell"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale città è ambientato 'La La Land'?",
+    "a": [
+      "Los Angeles",
+      "New York",
+      "San Francisco",
+      "Chicago"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Chi ha diretto 'Inception'?",
+    "a": [
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Denis Villeneuve",
+      "David Fincher"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quale film Disney è basato sulla fiaba di Cenerentola?",
+    "a": [
+      "Cenerentola",
+      "Biancaneve",
+      "La Bella Addormentata",
+      "La Bella e la Bestia"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Chi interpreta Neo in 'Matrix'?",
+    "a": [
+      "Keanu Reeves",
+      "Tom Cruise",
+      "Brad Pitt",
+      "Will Smith"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "In quale anno uscì il primo film di 'Toy Story'?",
+    "a": [
+      "1995",
+      "1993",
+      "1997",
+      "1999"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quale regista ha diretto 'E.T. l'extra-terrestre'?",
+    "a": [
+      "Steven Spielberg",
+      "George Lucas",
+      "Brian De Palma",
+      "Robert Zemeckis"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Chi interpreta il Capitano Jack Sparrow?",
+    "a": [
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Keira Knightley",
+      "Geoffrey Rush"
+    ],
+    "cat": "🎬 Cinema"
+  },
+  {
+    "q": "Quanti giorni ha febbraio in un anno bisestile?",
+    "a": [
+      "29",
+      "28",
+      "30",
+      "27"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Qual è il colore ottenuto mescolando rosso e giallo?",
+    "a": [
+      "Arancione",
+      "Verde",
+      "Viola",
+      "Marrone"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quanti zeri ha un miliardo?",
+    "a": [
+      "9",
+      "6",
+      "12",
+      "8"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quale animale è il simbolo della WWF?",
+    "a": [
+      "Panda",
+      "Tigre",
+      "Elefante",
+      "Gorilla"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Come si chiama la paura dei ragni?",
+    "a": [
+      "Aracnofobia",
+      "Entomofobia",
+      "Zoofobia",
+      "Agorafobia"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "In quale mese cade l'equinozio di primavera nell'emisfero nord?",
+    "a": [
+      "Marzo",
+      "Aprile",
+      "Febbraio",
+      "Maggio"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quante carte ha un mazzo da poker?",
+    "a": [
+      "52",
+      "40",
+      "54",
+      "48"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quale è il numero di Avogadro (ordine di grandezza)?",
+    "a": [
+      "10²³",
+      "10¹²",
+      "10¹⁸",
+      "10³⁰"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "In quale paese è nata la pasta?",
+    "a": [
+      "Italia",
+      "Cina",
+      "Grecia",
+      "Arabia"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quante righe ha una scacchiera?",
+    "a": [
+      "8",
+      "6",
+      "10",
+      "12"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Qual è il colore del lutto in Giappone?",
+    "a": [
+      "Bianco",
+      "Nero",
+      "Viola",
+      "Grigio"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quanti secondi ci sono in un giorno?",
+    "a": [
+      "86400",
+      "36000",
+      "72000",
+      "100000"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Come si chiama la fobia degli spazi aperti?",
+    "a": [
+      "Agorafobia",
+      "Claustrofobia",
+      "Acrofobia",
+      "Xenofobia"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quale paese ha inventato la pizza?",
+    "a": [
+      "Italia",
+      "Grecia",
+      "Turchia",
+      "Spagna"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Quanti lati ha un ottagono?",
+    "a": [
+      "8",
+      "6",
+      "7",
+      "9"
+    ],
+    "cat": "🧠 Cultura"
+  },
+  {
+    "q": "Chi ha scritto 'Delitto e castigo'?",
+    "a": [
+      "Dostoevskij",
+      "Tolstoj",
+      "Cechov",
+      "Turgenev"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Quale personaggio di Omero ha combattuto per dieci anni contro Troia?",
+    "a": [
+      "Ulisse",
+      "Achille",
+      "Ettore",
+      "Agamennone"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Il vecchio e il mare'?",
+    "a": [
+      "Hemingway",
+      "Fitzgerald",
+      "Steinbeck",
+      "Faulkner"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "In quale romanzo appare il personaggio di Ebenezer Scrooge?",
+    "a": [
+      "Canto di Natale",
+      "Oliver Twist",
+      "David Copperfield",
+      "Grandi speranze"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Cent'anni di solitudine'?",
+    "a": [
+      "Gabriel García Márquez",
+      "Jorge Luis Borges",
+      "Pablo Neruda",
+      "Mario Vargas Llosa"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Quale opera di Dante precede il 'Purgatorio'?",
+    "a": [
+      "Inferno",
+      "Paradiso",
+      "Vita Nova",
+      "Convivio"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Il processo'?",
+    "a": [
+      "Franz Kafka",
+      "Albert Camus",
+      "Jean-Paul Sartre",
+      "Samuel Beckett"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "In quale romanzo appare Sherlock Holmes per la prima volta?",
+    "a": [
+      "Uno studio in rosso",
+      "Il mastino dei Baskerville",
+      "Il segno dei quattro",
+      "Lo scandalo in Boemia"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Orgoglio e pregiudizio'?",
+    "a": [
+      "Jane Austen",
+      "Charlotte Brontë",
+      "Emily Brontë",
+      "Virginia Woolf"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Quale poeta romano scrisse l'Eneide?",
+    "a": [
+      "Virgilio",
+      "Orazio",
+      "Ovidio",
+      "Lucrezio"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Il Gattopardo'?",
+    "a": [
+      "Giuseppe Tomasi di Lampedusa",
+      "Alberto Moravia",
+      "Italo Calvino",
+      "Leonardo Sciascia"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "In quale romanzo appare il personaggio di Long John Silver?",
+    "a": [
+      "L'isola del tesoro",
+      "Robinson Crusoe",
+      "I viaggi di Gulliver",
+      "Il corsaro nero"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Lolita'?",
+    "a": [
+      "Vladimir Nabokov",
+      "Henry Miller",
+      "D.H. Lawrence",
+      "John Updike"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Quale scrittore italiano ha vinto il Nobel nel 1997?",
+    "a": [
+      "Dario Fo",
+      "Eugenio Montale",
+      "Salvatore Quasimodo",
+      "Grazia Deledda"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Chi ha scritto 'Il mondo nuovo' (Brave New World)?",
+    "a": [
+      "Aldous Huxley",
+      "George Orwell",
+      "H.G. Wells",
+      "Ray Bradbury"
+    ],
+    "cat": "📚 Letteratura"
+  },
+  {
+    "q": "Cosa significa l'acronimo 'HTML'?",
+    "a": [
+      "HyperText Markup Language",
+      "High Transfer Markup Language",
+      "HyperText Model Language",
+      "High Text Markup Language"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "In quale anno fu lanciato il primo satellite artificiale (Sputnik)?",
+    "a": [
+      "1957",
+      "1961",
+      "1955",
+      "1959"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Quale azienda ha sviluppato il linguaggio di programmazione Python?",
+    "a": [
+      "Nessuna — creato da Guido van Rossum",
+      "Microsoft",
+      "Google",
+      "IBM"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Quanti bit ha un indirizzo IPv4?",
+    "a": [
+      "32",
+      "16",
+      "64",
+      "128"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Cosa fa un compilatore?",
+    "a": [
+      "Traduce codice sorgente in codice macchina",
+      "Esegue programmi in tempo reale",
+      "Gestisce la memoria RAM",
+      "Protegge dai virus"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Quale azienda ha creato il linguaggio Java?",
+    "a": [
+      "Sun Microsystems",
+      "Microsoft",
+      "Apple",
+      "IBM"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Cosa significa 'GPU'?",
+    "a": [
+      "Graphics Processing Unit",
+      "General Processing Unit",
+      "Graphics Program Utility",
+      "Global Processing Unit"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "In quale anno fu fondato Google?",
+    "a": [
+      "1998",
+      "1996",
+      "2000",
+      "2002"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Quale protocollo viene usato per inviare email?",
+    "a": [
+      "SMTP",
+      "HTTP",
+      "FTP",
+      "POP3"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Cosa significa 'open source'?",
+    "a": [
+      "Codice liberamente disponibile e modificabile",
+      "Software gratuito",
+      "Sistema operativo Linux",
+      "Programma senza licenza"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Quanti GB ha 1 TB?",
+    "a": [
+      "1024",
+      "1000",
+      "2048",
+      "512"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Quale azienda ha prodotto il primo computer personale commerciale di successo?",
+    "a": [
+      "Apple",
+      "IBM",
+      "Microsoft",
+      "Commodore"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Cosa fa il tasto 'Ctrl+Z' nella maggior parte dei programmi?",
+    "a": [
+      "Annulla l'ultima azione",
+      "Copia",
+      "Taglia",
+      "Salva"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Quale linguaggio è più usato per lo stile nelle pagine web?",
+    "a": [
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "Ruby"
+    ],
+    "cat": "💻 Tecnologia"
+  },
+  {
+    "q": "Cosa significa 'IoT'?",
+    "a": [
+      "Internet of Things",
+      "Internet of Technology",
+      "Input/Output Terminal",
+      "Integrated Online Tools"
+    ],
+    "cat": "💻 Tecnologia"
   }
 ]
